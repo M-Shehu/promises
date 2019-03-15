@@ -7,7 +7,7 @@
 var fs = require('fs');
 var request = require('request');
 var Promise = require('bluebird');
-var callbackReview = require('./callbackReview')
+var callbackReview = require('./callbackReview');
 
 
 // This function should retrieve the first line of the file at `filePath`
@@ -28,7 +28,7 @@ var pluckFirstLineFromFileAsync = function(filePath) {
     // console.log(firstLine);
   }).catch((error) => {
     // console.log(error);
-  })
+  });
 
   return promiseExcercise;
 };
@@ -42,13 +42,13 @@ var getStatusCodeAsync = function(url) {
       } else {
         resolve(statusCode);
       }
-    })
+    });
   });
 
 
   promiseExcercise.then((sC) => {}).catch((error) => {
     // console.log(error);
-  })
+  });
 
 
   return promiseExcercise;
