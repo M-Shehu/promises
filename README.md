@@ -1,2 +1,4 @@
-# promises
-This is a project I completed as a student at [hackreactor](http://hackreactor.com). This project was worked on with a pair.
+# Promises
+
+## Project Description
+This is a repo to practice callbacks, promises, Promise.all and async functions.
